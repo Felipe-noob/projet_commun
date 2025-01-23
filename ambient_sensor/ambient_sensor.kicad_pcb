@@ -119,6 +119,8 @@
 	(net 37 "unconnected-(U4-PD2-Pad4)")
 	(net 38 "unconnected-(U4-PC2-Pad25)")
 	(net 39 "unconnected-(U4-AREF-Pad21)")
+	(net 40 "unconnected-(Y1-Pad1)")
+	(net 41 "unconnected-(Y1-Pad2)")
 	(footprint "Package_DIP:DIP-28_W7.62mm"
 		(layer "F.Cu")
 		(uuid "296a4151-c377-40cb-99f4-310e0d3446db")
@@ -16246,6 +16248,289 @@
 					(xy 178.984 57.3) (xy 178.988686 57.311314) (xy 179 57.316) (xy 179.011314 57.311314) (xy 179.016 57.3)
 					(xy 179.011314 57.288686) (xy 179 57.284) (xy 178.988686 57.288686)
 				)
+			)
+		)
+	)
+	(footprint "Crystal:Resonator-2Pin_W10.0mm_H5.0mm"
+		(layer "F.Cu")
+		(uuid "711f9d33-98ee-4dd2-8a80-367bbcc6f36e")
+		(at 139.5 83)
+		(descr "Ceramic Resomator/Filter 10.0x5.0 RedFrequency MG/MT/MX series, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 2 pins")
+		(tags "THT ceramic resonator filter")
+		(property "Reference" "Y1"
+			(at 2.5 -3.7 0)
+			(layer "F.SilkS")
+			(uuid "2416755b-64ee-4215-ad47-6c4c39e1e8fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 2.5 3.7 0)
+			(layer "F.Fab")
+			(uuid "fa392d3a-82f8-4146-a9f0-ac4d51a01a02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Resonator-2Pin_W10.0mm_H5.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c75735d4-22ad-4883-b3a4-990caf22b842")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43325a1f-7a46-4f0b-ac07-c3707de5f1f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94b3e706-9455-4811-b012-7c8d22695892")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Crystal*")
+		(path "/c306b2e0-2029-4fdc-85b4-eecf284b65a6")
+		(sheetname "Raiz")
+		(sheetfile "ambient_sensor.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0 -2.7)
+			(end 5 -2.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5aacbf12-4e10-41b2-ae04-1a63c1af413f")
+		)
+		(fp_line
+			(start 0 2.7)
+			(end 5 2.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9787f2bf-9265-43b3-afb7-39f478728b45")
+		)
+		(fp_arc
+			(start 0 2.7)
+			(mid -2.7 0)
+			(end 0 -2.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aa41b564-6d56-4af9-9f80-0a1ef332bb6f")
+		)
+		(fp_arc
+			(start 5 -2.7)
+			(mid 7.7 0)
+			(end 5 2.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8d4d214-ef49-49e7-85f6-9fca1da80ffb")
+		)
+		(fp_line
+			(start -3 -3)
+			(end -3 3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3233d51c-1f87-4554-a70d-c59583e14b46")
+		)
+		(fp_line
+			(start -3 3)
+			(end 8 3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "57c6f7a7-72eb-4497-baac-a2d259e3129c")
+		)
+		(fp_line
+			(start 8 -3)
+			(end -3 -3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "380ad995-c28c-4b55-b9de-af5bcca6cbe8")
+		)
+		(fp_line
+			(start 8 3)
+			(end 8 -3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "27ce8c0f-f2fe-4c3e-84ff-213fa743a6b3")
+		)
+		(fp_line
+			(start 0 -2.5)
+			(end 5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4d8e9b8b-01ff-40f6-9b8d-923c8914b776")
+		)
+		(fp_line
+			(start 0 -2.5)
+			(end 5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5d03017d-4847-4725-9970-3effea255be0")
+		)
+		(fp_line
+			(start 0 2.5)
+			(end 5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d2366b9b-656d-4873-bc3e-7d8a84467394")
+		)
+		(fp_line
+			(start 0 2.5)
+			(end 5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d461bd89-95f8-4691-a56a-64482ddfd055")
+		)
+		(fp_arc
+			(start 0 2.5)
+			(mid -2.5 0)
+			(end 0 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8cbac8c0-99a2-4ff9-be7d-9e09fef1c107")
+		)
+		(fp_arc
+			(start 0 2.5)
+			(mid -2.5 0)
+			(end 0 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f06c99d0-2b5b-4b43-85b9-10ca8fabf0d6")
+		)
+		(fp_arc
+			(start 5 -2.5)
+			(mid 7.5 0)
+			(end 5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3cfb9cb1-6f42-430a-a190-6fed2b9c227a")
+		)
+		(fp_arc
+			(start 5 -2.5)
+			(mid 7.5 0)
+			(end 5 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7848def2-c977-4eed-acad-548de582c02f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 0 0)
+			(layer "F.Fab")
+			(uuid "8708c505-c8ba-4100-aa02-5fd0c9296903")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 40 "unconnected-(Y1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "04ea8890-ccb0-47f0-ad8e-6c1be702033e")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0)
+			(size 1.5 1.5)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 41 "unconnected-(Y1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "f9f0a5f7-f303-401e-8933-1150d2ec75f2")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Resonator-2Pin_W10.0mm_H5.0mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
