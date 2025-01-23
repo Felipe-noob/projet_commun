@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sensors:SGP30"
 			(at -5.08 0 0)
 			(effects
 				(font
