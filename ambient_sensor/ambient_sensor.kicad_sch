@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "sensors:SGP30"
 				(at -5.08 0 0)
 				(effects
 					(font
@@ -164,19 +164,177 @@
 				)
 			)
 		)
+		(symbol "sensors:Si7021Original"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.254 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sensors:Si7021original"
+				(at 2.032 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Si7021Original_1_1"
+				(rectangle
+					(start -1.27 10.16)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Si7021\nTemp & Humidity"
+					(at 2.286 12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "3V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 8.89 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol
-		(lib_id "sensors:SGP30")
-		(at 115.57 105.41 0)
+		(lib_id "sensors:Si7021Original")
+		(at 88.9 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27d11bee-9225-479f-bc09-561b6235d19c")
+		(uuid "7dd7dc26-ef9a-43e8-a726-e1d44b53e4b2")
 		(property "Reference" "U2"
-			(at 128.27 102.6067 0)
+			(at 88.646 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +343,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 128.27 104.5118 0)
+			(at 100.33 103.753 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,8 +351,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 105.41 0)
+		(property "Footprint" "sensors:Si7021original"
+			(at 90.932 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 105.41 0)
+			(at 88.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 105.41 0)
+			(at 88.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,25 +378,103 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "211f24f0-0672-4878-b79d-b30589a232d3")
+		(pin ""
+			(uuid "e6786fbf-8613-467f-90b7-24fe3489e7dc")
 		)
-		(pin "2"
-			(uuid "ad427871-5aaa-4eec-9a7d-50948fac5184")
+		(pin ""
+			(uuid "32ab478b-6304-49b5-952e-acaf47aacb56")
 		)
-		(pin "1"
-			(uuid "7ea7da9a-912c-40ef-a8c4-3cd8d56842b8")
+		(pin ""
+			(uuid "6326322c-651c-4621-8801-a726d61a5869")
 		)
-		(pin "5"
-			(uuid "a22769a6-4137-4b25-98dd-b345ce5b0385")
+		(pin ""
+			(uuid "62fd8ad9-ce30-44dd-8608-53e679778944")
 		)
-		(pin "4"
-			(uuid "38302811-6243-4798-9327-9c6273e96eef")
+		(pin ""
+			(uuid "30ecb0bb-6b07-474c-9830-f9889d5d5b89")
 		)
 		(instances
 			(project ""
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sensors:SGP30")
+		(at 123.19 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c90918a4-534d-4fdd-8f1e-6479983fe235")
+		(property "Reference" "U1"
+			(at 123.19 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 103.2418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sensors:SGP30"
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fe6f2d17-3823-4706-b2d1-007588574c51")
+		)
+		(pin "4"
+			(uuid "dd434b12-2d9f-4706-aef7-790e479e3825")
+		)
+		(pin "3"
+			(uuid "26fa28d8-6bcb-425e-938e-f95a22aa19b9")
+		)
+		(pin "2"
+			(uuid "0a460dd7-a5bb-4ec5-99d6-e7412568dd54")
+		)
+		(pin "1"
+			(uuid "6b8268d0-0600-4f34-b25f-d72ce873a4bb")
+		)
+		(instances
+			(project ""
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "U1")
 					(unit 1)
 				)
 			)
