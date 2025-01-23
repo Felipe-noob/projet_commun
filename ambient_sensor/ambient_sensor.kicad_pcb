@@ -88,7 +88,7 @@
 	(footprint "sensors:SGP30"
 		(layer "F.Cu")
 		(uuid "9b59d424-ad3d-4acd-9482-3af043299c6a")
-		(at 121.5 81)
+		(at 150.5 71)
 		(property "Reference" "U1"
 			(at 3 -5.5 0)
 			(unlocked yes)
@@ -1195,5 +1195,16 @@
 				)
 			)
 		)
+	)
+	(gr_rect
+		(start 70.5 27)
+		(end 245 112)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f148685d-c59c-4b34-81f6-f36be5255d79")
 	)
 )
