@@ -61,7 +61,7 @@
 					(type background)
 				)
 			)
-			(text "BMP280\nPressure and\nTemperature Sensor"
+			(text "BMP280\nI2C address : 0x77\nPressure and Temperature Sensor\n"
 				(at 0.762 6.35 0)
 				(effects
 					(font
