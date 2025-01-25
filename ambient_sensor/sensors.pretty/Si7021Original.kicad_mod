@@ -1,4 +1,4 @@
-(footprint "Si7021original"
+(footprint "Si7021Original"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Si7021original"
+	(property "Value" "Si7021Original"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
