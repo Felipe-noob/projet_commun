@@ -110,7 +110,10 @@
 	(net 28 "unconnected-(U4-PC2-Pad25)")
 	(net 29 "unconnected-(U4-AREF-Pad21)")
 	(net 30 "unconnected-(C1-Pad1)")
-	(net 31 "input")
+	(net 31 "unconnected-(U6-VI-Pad3)")
+	(net 32 "input")
+	(net 33 "unconnected-(U6-VO-Pad2)")
+	(net 34 "unconnected-(U6-GND-Pad1)")
 	(footprint "sensors:Si7021original"
 		(layer "F.Cu")
 		(uuid "21196c2c-bd31-4fe3-8135-56f1411d68f7")
@@ -16737,6 +16740,283 @@
 			)
 		)
 	)
+	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(layer "F.Cu")
+		(uuid "67534fad-d07e-4b9b-8982-3e9dfa1ecf59")
+		(at 189.85 69)
+		(descr "module CMS SOT223 4 pins")
+		(tags "CMS SOT")
+		(property "Reference" "U6"
+			(at -1.85 -6 0)
+			(layer "F.SilkS")
+			(uuid "4f09fe58-0762-4f29-95ef-29831b3dfa1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LD1117S33TR_SOT223"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "0be4315d-c2a6-4e8b-bda2-7296afda1f9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e861216-0ed6-4cfa-8cae-83b89977caee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8318975e-b70a-4e55-9ebc-91d5154f9718")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c669b07e-a844-4d1a-bb5c-f4487314a4fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?223*TabPin2*")
+		(path "/ed08db3d-8ac9-4f83-924d-73bf746c4e66")
+		(sheetname "Raiz")
+		(sheetfile "ambient_sensor.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.85 -3.41)
+			(end 1.91 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e56015c8-849f-49dc-aaa7-de09d613d494")
+		)
+		(fp_line
+			(start -1.85 3.41)
+			(end 1.91 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "409689d1-60b8-4f80-bc3a-37cbf4fb1646")
+		)
+		(fp_line
+			(start 1.91 -3.41)
+			(end 1.91 -2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "213e74b1-53d8-4ffd-b6be-37b4103ece37")
+		)
+		(fp_line
+			(start 1.91 3.41)
+			(end 1.91 2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08995572-4648-46ee-a3f6-5296cd905cc9")
+		)
+		(fp_poly
+			(pts
+				(xy -3.13 -3.31) (xy -3.37 -3.64) (xy -2.89 -3.64) (xy -3.13 -3.31)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "484607fc-375b-405a-b0e2-1da653bd5785")
+		)
+		(fp_line
+			(start -4.4 -3.6)
+			(end -4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "49f5a23a-68a1-4fb4-a13b-6838ee68548c")
+		)
+		(fp_line
+			(start -4.4 3.6)
+			(end 4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6c7596e5-2dd1-409d-b36d-64ca74b31bd2")
+		)
+		(fp_line
+			(start 4.4 -3.6)
+			(end -4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c1761b76-7969-4145-ac10-b4b8bb7c896a")
+		)
+		(fp_line
+			(start 4.4 3.6)
+			(end 4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "628c5b01-f517-4b37-a5ef-22bdf732753d")
+		)
+		(fp_line
+			(start -1.85 -2.35)
+			(end -1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9c25de42-3645-4bc4-9e87-e410001ab5b8")
+		)
+		(fp_line
+			(start -1.85 -2.35)
+			(end -0.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "72ce2d71-e89f-4da8-97e1-ec7b1ba66047")
+		)
+		(fp_line
+			(start -1.85 3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ead94d63-35e3-4a78-a289-f1aea48a3a43")
+		)
+		(fp_line
+			(start -0.85 -3.35)
+			(end 1.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4fe65e4c-09cc-4cf6-a897-eaa83aa737a4")
+		)
+		(fp_line
+			(start 1.85 -3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c61d2ebd-bfb9-4d02-9172-48b03b38648e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.85 -1 90)
+			(layer "F.Fab")
+			(uuid "ce3cb9c7-9146-40f6-84d6-73475d319b44")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.15 -2.3)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 34 "unconnected-(U6-GND-Pad1)")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "91397232-e39f-4158-be07-2e67d94eee7d")
+		)
+		(pad "2" smd roundrect
+			(at -3.15 0)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 33 "unconnected-(U6-VO-Pad2)")
+			(pinfunction "VO")
+			(pintype "power_out")
+			(uuid "61bc3581-44d6-4dd5-8dae-5c6549c09068")
+		)
+		(pad "2" smd roundrect
+			(at 3.15 0)
+			(size 2 3.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 33 "unconnected-(U6-VO-Pad2)")
+			(pinfunction "VO")
+			(pintype "power_out")
+			(uuid "b1a31763-d0bf-4d70-84a2-fab1fcfa1521")
+		)
+		(pad "3" smd roundrect
+			(at -3.15 2.3)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 31 "unconnected-(U6-VI-Pad3)")
+			(pinfunction "VI")
+			(pintype "power_in")
+			(uuid "5bc5a968-3a61-44f9-a5a9-67df3b6fab6e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "9165bf6c-e0e0-42bf-9391-042b5889dbbe")
@@ -16925,7 +17205,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.222222)
-			(net 31 "input")
+			(net 32 "input")
 			(pintype "passive")
 			(uuid "236ba69a-d7d4-414f-bfb9-d1760ebb47e3")
 		)
