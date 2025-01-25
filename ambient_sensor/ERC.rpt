@@ -1,0 +1,96 @@
+Relatório ERC (2025-01-25T16:14:46+0100, Codificação UTF8)
+
+***** Folha /
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 2350.00 mils): Symbol J5 Pino 4 [Pin_4, Passivo, Linha]
+    @(2350.00 mils, 2350.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 2250.00 mils): Symbol J5 Pino 3 [Pin_3, Passivo, Linha]
+    @(2350.00 mils, 2250.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 3450.00 mils): Symbol J3 Pino 2 [Pin_2, Passivo, Linha]
+    @(2350.00 mils, 3450.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 3350.00 mils): Symbol J3 Pino 1 [Pin_1, Passivo, Linha]
+    @(2350.00 mils, 3350.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 3250.00 mils): Symbol J2 Pino 5 [Pin_5, Passivo, Linha]
+    @(2350.00 mils, 3250.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 3150.00 mils): Symbol J2 Pino 4 [Pin_4, Passivo, Linha]
+    @(2350.00 mils, 3150.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 3550.00 mils): Symbol J3 Pino 3 [Pin_3, Passivo, Linha]
+    @(2350.00 mils, 3550.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 2950.00 mils): Symbol J2 Pino 2 [Pin_2, Passivo, Linha]
+    @(2350.00 mils, 2950.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 2850.00 mils): Symbol J2 Pino 1 [Pin_1, Passivo, Linha]
+    @(2350.00 mils, 2850.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 3050.00 mils): Symbol J2 Pino 3 [Pin_3, Passivo, Linha]
+    @(2350.00 mils, 3050.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(8150.00 mils, 2700.00 mils): Symbol J1 Pino 2 [Pin_2, Passivo, Linha]
+    @(2350.00 mils, 2650.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(7050.00 mils, 1500.00 mils): Symbol #PWR02 Pino 1 [Alimentação de entrada, Linha]
+    @(1050.00 mils, 1150.00 mils): Não conectado
+[lib_symbol_issues]: O símbolo Si7021Original não foi encontrado na biblioteca 'sensors'
+    ; warning
+    @(7400.00 mils, 1400.00 mils): Símbolo U2 [Si7021Original]
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 1650.00 mils): Symbol J4 Pino 6 [Pin_6, Passivo, Linha]
+    @(2350.00 mils, 1650.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 2150.00 mils): Symbol J5 Pino 2 [Pin_2, Passivo, Linha]
+    @(2350.00 mils, 2150.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 2050.00 mils): Symbol J5 Pino 1 [Pin_1, Passivo, Linha]
+    @(2350.00 mils, 2050.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 1550.00 mils): Symbol J4 Pino 5 [Pin_5, Passivo, Linha]
+    @(2350.00 mils, 1550.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(3200.00 mils, 1950.00 mils): Symbol Y1 Pino 1 [1, Passivo, Linha]
+    @(2350.00 mils, 1850.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(3450.00 mils, 1650.00 mils): Symbol C1 Pino 1 [Passivo, Linha]
+    @(2350.00 mils, 1750.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 1450.00 mils): Symbol J4 Pino 4 [Pin_4, Passivo, Linha]
+    @(2350.00 mils, 1450.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 1350.00 mils): Symbol J4 Pino 3 [Pin_3, Passivo, Linha]
+    @(2350.00 mils, 1350.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 1150.00 mils): Symbol J4 Pino 1 [Pin_1, Passivo, Linha]
+    @(2350.00 mils, 1150.00 mils): Não conectado
+[no_connect_connected]: Um pino sinalizado como "desconectado" está conectado
+    ; warning
+    @(2350.00 mils, 1250.00 mils): Symbol J4 Pino 2 [Pin_2, Passivo, Linha]
+    @(2350.00 mils, 1250.00 mils): Não conectado
+
+ ** Mensagens ERC: 23  Erros 0  Advertências 23
