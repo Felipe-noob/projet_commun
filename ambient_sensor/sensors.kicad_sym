@@ -415,8 +415,8 @@
 					(type background)
 				)
 			)
-			(text "Si7021\nTemp & Humidity"
-				(at 2.286 12.7 0)
+			(text "Si7021\nI2C address: 0x40\nTemp & Humidity"
+				(at 2.286 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
