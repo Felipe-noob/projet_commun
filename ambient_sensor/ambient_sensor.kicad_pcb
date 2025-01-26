@@ -6693,6 +6693,19 @@
 		(layer "Edge.Cuts")
 		(uuid "a641c9e9-e60b-41db-8141-dd48265fba99")
 	)
+	(gr_text "École\nCentrale\nde Lille"
+		(at 165 134 0)
+		(layer "F.Cu")
+		(uuid "3eb872f4-25f5-43c8-b7d0-a790f4914d7f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SGP30"
 		(at 215.25 96.5 0)
 		(layer "F.SilkS")
