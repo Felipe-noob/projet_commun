@@ -3376,6 +3376,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 72.39) (xy 59.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078edaaf-e957-4154-ace0-e03812ac50b1")
+	)
+	(wire
+		(pts
 			(xy 160.02 97.79) (xy 160.02 99.06)
 		)
 		(stroke
@@ -3696,6 +3706,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 74.93) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d111fde0-ed9e-4472-8d35-5fadea482280")
+	)
+	(wire
+		(pts
 			(xy 26.67 29.21) (xy 29.21 29.21)
 		)
 		(stroke
@@ -3809,6 +3829,17 @@
 		)
 		(uuid "664e4be8-5ffd-45a6-85d4-60116117351c")
 	)
+	(label "RX"
+		(at 59.69 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79b827e1-5e0f-444c-bb69-cfeecf35b942")
+	)
 	(label "DT"
 		(at 120.65 100.33 0)
 		(fields_autoplaced yes)
@@ -3830,6 +3861,17 @@
 			(justify left bottom)
 		)
 		(uuid "9ef58b21-d54f-47ea-ac16-003c5286760b")
+	)
+	(label "TX"
+		(at 59.69 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aba96749-21a4-4c8c-b136-42086fc97241")
 	)
 	(label "CLK"
 		(at 59.69 90.17 0)
@@ -5175,7 +5217,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 64.77 74.93 180)
+		(at 68.58 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5184,7 +5226,7 @@
 		(fields_autoplaced yes)
 		(uuid "391aa9a6-925b-47d3-9f13-f1ccd8f0be68")
 		(property "Reference" "J2"
-			(at 66.04 72.3899 0)
+			(at 69.85 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5235,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 66.04 74.9299 0)
+			(at 69.85 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5244,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 64.77 74.93 0)
+			(at 68.58 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 74.93 0)
+			(at 68.58 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5262,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 64.77 74.93 0)
+			(at 68.58 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
