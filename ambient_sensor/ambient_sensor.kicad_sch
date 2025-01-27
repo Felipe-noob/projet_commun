@@ -3553,16 +3553,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 72.39) (xy 59.69 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "078edaaf-e957-4154-ace0-e03812ac50b1")
-	)
-	(wire
-		(pts
 			(xy 160.02 97.79) (xy 160.02 99.06)
 		)
 		(stroke
@@ -3890,16 +3880,6 @@
 			(type default)
 		)
 		(uuid "d004c4b6-9f1a-4986-be26-850718ef6c9a")
-	)
-	(wire
-		(pts
-			(xy 63.5 74.93) (xy 59.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d111fde0-ed9e-4472-8d35-5fadea482280")
 	)
 	(wire
 		(pts
@@ -5561,76 +5541,6 @@
 			(project "ambient_sensor"
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 68.58 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "391aa9a6-925b-47d3-9f13-f1ccd8f0be68")
-		(property "Reference" "J2"
-			(at 69.85 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 69.85 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 68.58 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 68.58 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "598091aa-fe42-42cd-92f2-4afdaa963ac0")
-		)
-		(pin "1"
-			(uuid "8dc81f72-957e-45a8-b7c7-0856e4009384")
-		)
-		(instances
-			(project "ambient_sensor"
-				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
-					(reference "J2")
 					(unit 1)
 				)
 			)
