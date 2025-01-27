@@ -3293,6 +3293,183 @@
 				)
 			)
 		)
+		(symbol "sensors:USB_FTDI_GT1125"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sensors:USB_FTDI_GT1125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_FTDI_GT1125_1_1"
+				(rectangle
+					(start -6.35 25.4)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Convertisseur USB-Série\nFTDI GT1125\nGoTronic"
+					(at -3.556 29.21 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 24.13 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 20.32 0)
+					(length 2.54)
+					(name "CTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 16.51 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 12.7 0)
+					(length 2.54)
+					(name "TxD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 8.89 0)
+					(length 2.54)
+					(name "RxD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "DTR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 207.01 66.04)
@@ -3403,6 +3580,16 @@
 			(type default)
 		)
 		(uuid "11adedc0-0e21-485e-a91d-c95619fb1ef0")
+	)
+	(wire
+		(pts
+			(xy 152.4 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131f1a28-6ceb-4b21-b3e9-7592f479c85b")
 	)
 	(wire
 		(pts
@@ -3766,6 +3953,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 62.23) (xy 158.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f288d46b-b52b-4f3f-ab9c-b6f11e12bf02")
+	)
+	(wire
+		(pts
 			(xy 81.28 41.91) (xy 76.2 41.91)
 		)
 		(stroke
@@ -3817,6 +4014,17 @@
 			(justify left bottom)
 		)
 		(uuid "52656cec-f040-4881-88a8-6224d5dcede6")
+	)
+	(label "TX"
+		(at 158.75 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5af0da4d-aeaa-43ad-9dc9-59e367fc6fbe")
 	)
 	(label "Vin"
 		(at 161.29 97.79 0)
@@ -3883,6 +4091,17 @@
 			(justify left bottom)
 		)
 		(uuid "b7187e21-1add-4696-b2c2-274fb6a2cf6f")
+	)
+	(label "RX"
+		(at 158.75 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b79a86a1-8ac8-4513-b7b7-db002826d00e")
 	)
 	(label "CS"
 		(at 59.69 46.99 0)
@@ -4689,6 +4908,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 158.75 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "185290a2-eb9e-4d70-9a83-aa10ef0ba1fe")
+		(property "Reference" "#PWR020"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa832a3-9ca5-4377-a808-8f944b0e7bcc")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 220.98 97.79 0)
 		(unit 1)
@@ -5077,6 +5362,72 @@
 			(project ""
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30696378-0fba-4cfd-b174-4a0033e48df7")
+		(property "Reference" "#PWR019"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9c3e7ee-39fc-485d-baa4-02cffb3e0a23")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5972,6 +6323,87 @@
 		)
 	)
 	(symbol
+		(lib_id "sensors:USB_FTDI_GT1125")
+		(at 167.64 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97926632-58c1-4910-99ed-015cd4527b11")
+		(property "Reference" "U5"
+			(at 163.576 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 63.2368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sensors:USB_FTDI_GT1125"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5b06bf42-e48a-4cf3-b462-8d42c611a2de")
+		)
+		(pin "1"
+			(uuid "2d02b834-15dc-4935-a0e5-e707c725d55b")
+		)
+		(pin "2"
+			(uuid "c3cb8f49-6bd0-4e04-b768-b0a4ba1068e6")
+		)
+		(pin "5"
+			(uuid "094f50a8-f332-4976-9203-b25cc7b45d01")
+		)
+		(pin "4"
+			(uuid "777df791-768b-4207-af89-6af910b23df2")
+		)
+		(pin "3"
+			(uuid "bbb46728-75a2-4140-9129-99a7302a5a9c")
+		)
+		(instances
+			(project ""
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 81.28 45.72 90)
 		(unit 1)
@@ -6632,6 +7064,72 @@
 			(project ""
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb5aba5-d94e-4514-b144-1d59712878e9")
+		(property "Reference" "#PWR012"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9697789a-bef2-4413-9a24-e3ddcc195e0e")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

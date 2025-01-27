@@ -961,7 +961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sensors:USB_FTDI_GT1125"
 			(at 0 0 0)
 			(effects
 				(font
