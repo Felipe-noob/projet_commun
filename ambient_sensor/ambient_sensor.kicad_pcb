@@ -3712,7 +3712,7 @@
 	(footprint "sensors:HC-05_breakboard"
 		(layer "F.Cu")
 		(uuid "6adb9807-09fa-4576-850f-22faaaad0894")
-		(at 172.25 144.25)
+		(at 230.704 115.842)
 		(property "Reference" "U8"
 			(at 0 -0.5 0)
 			(unlocked yes)
