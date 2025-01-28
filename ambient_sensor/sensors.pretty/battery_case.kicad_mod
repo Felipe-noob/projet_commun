@@ -1,0 +1,119 @@
+(footprint "battery_case"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cae8b547-a11b-4bb9-9105-4be461816ff6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "battery_case"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb0073ea-a2f8-48d7-be6b-11b5c9255ecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3aba4d3-61c3-4d79-b77b-47e985f8ad3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a66b5f1-d506-4e45-b990-e97711758e04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b5ca777-57b3-4ced-ba76-4baaaaede01a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only)
+	(fp_rect
+		(start -0.25 -50.75)
+		(end 52.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "053e83cc-864f-46d0-8eab-7e80356db4c1")
+	)
+	(fp_text user "4 AAA 1.5V"
+		(at 5.75 -25.5 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "0a2ed873-009d-4527-91bc-b73d04d388bf")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Battery case"
+		(at 3 -19.75 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "8571a83d-dfc9-4eee-a934-c4d12ba20be0")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b29d81f-4d81-42d5-9aba-4d0a08782df6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
