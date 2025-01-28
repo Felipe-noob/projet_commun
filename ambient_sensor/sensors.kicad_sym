@@ -431,7 +431,7 @@
 			)
 		)
 		(property "Footprint" "sensors:SD_reader_goTronic"
-			(at -5.08 0 0)
+			(at -5.08 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,10 +477,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -8.89 12.7 0)
-				(length 2.54) hide
-				(name "unknown"
+			(pin power_in line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -495,10 +495,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -8.89 10.16 0)
-				(length 2.54) hide
-				(name "unknown"
+			(pin power_in line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "3V3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -514,7 +514,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 7.62 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -531,10 +531,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -8.89 5.08 0)
+			(pin input line
+				(at -8.89 2.54 0)
 				(length 2.54)
-				(name "GND"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -550,9 +550,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 2.54 0)
+				(at -8.89 5.08 0)
 				(length 2.54)
-				(name "DT"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -567,10 +567,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -8.89 0 0)
+			(pin input clock
+				(at -8.89 7.62 0)
 				(length 2.54)
-				(name "MOSI"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -585,8 +585,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -8.89 -2.54 0)
+			(pin input line
+				(at -8.89 10.16 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -603,10 +603,10 @@
 					)
 				)
 			)
-			(pin input clock
-				(at -8.89 -5.08 0)
+			(pin power_in line
+				(at -8.89 12.7 0)
 				(length 2.54)
-				(name "SCK"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)

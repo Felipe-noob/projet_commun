@@ -2783,7 +2783,7 @@
 				)
 			)
 			(property "Footprint" "sensors:SD_reader_goTronic"
-				(at -5.08 0 0)
+				(at -5.08 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2829,10 +2829,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -8.89 12.7 0)
-					(length 2.54) hide
-					(name "unknown"
+				(pin power_in line
+					(at -8.89 -5.08 0)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2847,10 +2847,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -8.89 10.16 0)
-					(length 2.54) hide
-					(name "unknown"
+				(pin power_in line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2866,7 +2866,7 @@
 					)
 				)
 				(pin power_in line
-					(at -8.89 7.62 0)
+					(at -8.89 0 0)
 					(length 2.54)
 					(name "5V"
 						(effects
@@ -2883,10 +2883,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -8.89 5.08 0)
+				(pin input line
+					(at -8.89 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2902,9 +2902,9 @@
 					)
 				)
 				(pin input line
-					(at -8.89 2.54 0)
+					(at -8.89 5.08 0)
 					(length 2.54)
-					(name "DT"
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2919,10 +2919,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -8.89 0 0)
+				(pin input clock
+					(at -8.89 7.62 0)
 					(length 2.54)
-					(name "MOSI"
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2937,8 +2937,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at -8.89 -2.54 0)
+				(pin input line
+					(at -8.89 10.16 0)
 					(length 2.54)
 					(name "MISO"
 						(effects
@@ -2955,10 +2955,10 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -8.89 -5.08 0)
+				(pin power_in line
+					(at -8.89 12.7 0)
 					(length 2.54)
-					(name "SCK"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3526,6 +3526,10 @@
 		(uuid "c84e4705-d836-48ad-b5ee-3bcb7ae9497b")
 	)
 	(no_connect
+		(at 115.57 105.41)
+		(uuid "3dbe6c31-baa1-40e1-90f5-7ebfb165b9f1")
+	)
+	(no_connect
 		(at 223.52 29.21)
 		(uuid "c6c29dbe-a19c-4bf1-b9f0-0990c481719d")
 	)
@@ -3560,6 +3564,16 @@
 			(type default)
 		)
 		(uuid "0804831e-9bbd-4f69-b1e4-16759f788750")
+	)
+	(wire
+		(pts
+			(xy 125.73 102.87) (xy 115.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f25512e-a938-4050-a3af-5cf2421a97cf")
 	)
 	(wire
 		(pts
@@ -3610,6 +3624,16 @@
 			(type default)
 		)
 		(uuid "2db90225-711c-4041-ad4c-7a995a8efa8e")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30841b97-b5b6-4d68-bc15-5f0fbfa70d5d")
 	)
 	(wire
 		(pts
@@ -3680,16 +3704,6 @@
 			(type default)
 		)
 		(uuid "46705428-9de0-422d-a569-335512bb2eec")
-	)
-	(wire
-		(pts
-			(xy 129.54 97.79) (xy 120.65 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47b98d0e-ff67-494d-bfdc-56296848df24")
 	)
 	(wire
 		(pts
@@ -3951,28 +3965,6 @@
 		)
 		(uuid "f9a9c062-7dda-4558-968b-8d1d09719552")
 	)
-	(label "CLK"
-		(at 120.65 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c70a166-1f11-4d4e-9ae3-4f089bb31598")
-	)
-	(label "MOSI"
-		(at 120.65 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15de1526-772a-4f85-a562-9ad1df9e20f1")
-	)
 	(label "MOSI"
 		(at 59.69 85.09 0)
 		(fields_autoplaced yes)
@@ -3985,7 +3977,7 @@
 		(uuid "43f375fd-ec08-4716-a140-9388ddfef44f")
 	)
 	(label "MISO"
-		(at 120.65 105.41 0)
+		(at 115.57 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4029,7 +4021,7 @@
 		(uuid "79b827e1-5e0f-444c-bb69-cfeecf35b942")
 	)
 	(label "DT"
-		(at 120.65 100.33 0)
+		(at 115.57 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4049,6 +4041,28 @@
 			(justify left bottom)
 		)
 		(uuid "9ef58b21-d54f-47ea-ac16-003c5286760b")
+	)
+	(label "CLK"
+		(at 115.57 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f5e137c-a357-4e14-9db6-b3ce8beb3e7e")
+	)
+	(label "MOSI"
+		(at 115.57 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2851177-dc47-46ff-8f4b-34b5417fe785")
 	)
 	(label "TX"
 		(at 59.69 74.93 0)
@@ -4621,73 +4635,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 97.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1050b8fc-6887-4d89-8a87-90b85abcaaf4")
-		(property "Reference" "#PWR022"
-			(at 129.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dcdbc88-bcd8-4f26-b34f-39b4552ad3a5")
-		)
-		(instances
-			(project "ambient_sensor"
-				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 160.02 102.87 180)
 		(unit 1)
@@ -4882,6 +4829,72 @@
 			(project "ambient_sensor"
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17040bd5-23d5-4cc9-a5a6-650864fbe1d6")
+		(property "Reference" "#PWR022"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54426e3-92c6-4710-8725-f8da271e840f")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6032,6 +6045,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 124.46 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c084ffe-66eb-4db2-8f5d-2ec3b6f6eff4")
+		(property "Reference" "#PWR021"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beb9cf13-c5a1-4a0c-87d9-11c4de2cd665")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 220.98 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6091,6 +6170,71 @@
 			(project "ambient_sensor"
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 125.73 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc99d8d-4615-4fef-a7ac-e31ca9f6d4e4")
+		(property "Reference" "#PWR017"
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 125.73 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce1c91d1-f342-4d5d-a0f2-f966eeda5d78")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6161,72 +6305,6 @@
 			(project "ambient_sensor"
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 120.65 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9338de87-5332-4d25-a185-f8c80320961d")
-		(property "Reference" "#PWR017"
-			(at 120.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 120.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66226ab0-29de-45fd-b2e9-403036f1aa40")
-		)
-		(instances
-			(project "ambient_sensor"
-				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6823,7 @@
 	)
 	(symbol
 		(lib_id "sensors:SD_reader_gotronic")
-		(at 111.76 102.87 0)
+		(at 106.68 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6754,7 +6832,7 @@
 		(dnp no)
 		(uuid "dde18ac2-8286-433f-8de8-8b86637ae378")
 		(property "Reference" "U7"
-			(at 113.538 111.76 0)
+			(at 108.458 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,7 +6841,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 100.33 97.784 0)
+			(at 95.25 97.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6772,7 +6850,7 @@
 			)
 		)
 		(property "Footprint" "sensors:SD_reader_goTronic"
-			(at 116.84 102.87 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,7 +6859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 102.87 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 102.87 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
