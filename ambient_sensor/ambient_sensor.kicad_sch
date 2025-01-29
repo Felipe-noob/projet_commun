@@ -3724,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 57.15) (xy 59.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015c6cf2-cda1-4779-98ba-3bcff309ac21")
+	)
+	(wire
+		(pts
 			(xy 59.69 85.09) (xy 64.77 85.09)
 		)
 		(stroke
@@ -3771,6 +3781,16 @@
 			(type default)
 		)
 		(uuid "131f1a28-6ceb-4b21-b3e9-7592f479c85b")
+	)
+	(wire
+		(pts
+			(xy 71.12 54.61) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7e8a86-9345-4b87-8581-bdf812a2bc37")
 	)
 	(wire
 		(pts
@@ -3924,6 +3944,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 59.69) (xy 59.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5578f92d-fd8d-4fe9-9093-a445a6fb652b")
+	)
+	(wire
+		(pts
 			(xy 81.28 49.53) (xy 87.63 49.53)
 		)
 		(stroke
@@ -4064,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6f8e51-0241-4c9d-816a-fd323f06db6f")
+	)
+	(wire
+		(pts
 			(xy 76.2 44.45) (xy 59.69 44.45)
 		)
 		(stroke
@@ -4194,6 +4234,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 29.21) (xy 59.69 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e5de89-3c07-4014-984c-5db2c558f34c")
+	)
+	(wire
+		(pts
 			(xy 81.28 41.91) (xy 76.2 41.91)
 		)
 		(stroke
@@ -4201,6 +4251,17 @@
 			(type default)
 		)
 		(uuid "f9a9c062-7dda-4558-968b-8d1d09719552")
+	)
+	(label "LED_BUILTIN"
+		(at 59.69 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "159ad236-d469-413e-831a-2233fbeea9ef")
 	)
 	(label "RxS"
 		(at 99.06 139.7 180)
@@ -4257,6 +4318,17 @@
 		)
 		(uuid "5a79e48d-8f2f-4e65-ba6f-b6c9293bf0d9")
 	)
+	(label "LED_BUILTIN"
+		(at 233.68 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5acfa213-f184-46b7-b8c2-43146244c98d")
+	)
 	(label "TX"
 		(at 158.75 69.85 180)
 		(fields_autoplaced yes)
@@ -4290,6 +4362,17 @@
 		)
 		(uuid "79b827e1-5e0f-444c-bb69-cfeecf35b942")
 	)
+	(label "TxS"
+		(at 59.69 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79f63954-85eb-42ee-acad-931da56d42e1")
+	)
 	(label "DT"
 		(at 115.57 100.33 0)
 		(fields_autoplaced yes)
@@ -4311,17 +4394,6 @@
 			(justify left bottom)
 		)
 		(uuid "88947403-a8ef-4a8c-bcfb-eb6d66b15342")
-	)
-	(label "TxS"
-		(at 59.69 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e7b261e-62ed-49eb-b5ba-f4a543e4f104")
 	)
 	(label "MISO"
 		(at 59.69 87.63 0)
@@ -4692,7 +4764,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 64.77 54.61 0)
+		(at 76.2 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4702,7 +4774,7 @@
 		(fields_autoplaced yes)
 		(uuid "059f4c6b-23fd-4226-9f60-15297bcaa660")
 		(property "Reference" "J5"
-			(at 66.04 54.6099 0)
+			(at 77.47 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4783,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 66.04 57.1499 0)
+			(at 77.47 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4792,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 64.77 54.61 0)
+			(at 76.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +4801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 54.61 0)
+			(at 76.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4810,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 64.77 54.61 0)
+			(at 76.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,6 +4982,76 @@
 			(project ""
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 233.68 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10b1567b-9433-441c-93db-384839c4f3fc")
+		(property "Reference" "D2"
+			(at 237.49 109.5374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 237.49 112.0774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12725b84-7f6e-4d31-b0b5-d99b2654dfee")
+		)
+		(pin "2"
+			(uuid "f56d69ae-bf81-47b2-ab45-1578fa58d340")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5380,7 +5522,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 64.77 29.21 0)
+		(at 67.31 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5389,7 +5531,7 @@
 		(dnp no)
 		(uuid "21ecea33-d448-4659-9d53-cfdd80b2d3f3")
 		(property "Reference" "J4"
-			(at 73.152 26.67 0)
+			(at 75.692 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5539,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 73.152 29.21 0)
+			(at 75.692 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5547,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 64.77 29.21 0)
+			(at 67.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 29.21 0)
+			(at 67.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5565,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 64.77 29.21 0)
+			(at 67.31 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "1k"
 			(at 223.52 102.8699 0)
 			(effects
 				(font
@@ -6954,6 +7096,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 233.68 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6692e22-ed49-4ca9-81ab-bcf739c22b52")
+		(property "Reference" "#PWR026"
+			(at 233.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "790a063a-465f-4519-8492-830ebb84ec43")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sensors:Si7021")
 		(at 194.31 43.18 0)
 		(unit 1)
@@ -7094,6 +7302,76 @@
 			(project "ambient_sensor"
 				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 233.68 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4838569-576a-497e-bb19-9abdd980dd39")
+		(property "Reference" "R3"
+			(at 236.22 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 236.22 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 231.902 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 233.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e105e627-a1b8-4b3f-9f5d-e05c3692b1bd")
+		)
+		(pin "2"
+			(uuid "031df3cd-f651-4a2a-97ec-8d71fc510e7d")
+		)
+		(instances
+			(project "ambient_sensor"
+				(path "/9e64b25d-56eb-4d28-941d-8d1b0cd0a88c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
