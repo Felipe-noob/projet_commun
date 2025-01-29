@@ -600,7 +600,7 @@
 			)
 		)
 		(property "Value" ""
-			(at -5.08 0 0)
+			(at -5.08 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +608,7 @@
 			)
 		)
 		(property "Footprint" "sensors:SD_reader_goTronic"
-			(at -5.08 -11.43 0)
+			(at 0.254 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,7 +617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -5.08 0 0)
+			(at -5.08 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -626,7 +626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -5.08 0 0)
+			(at -5.08 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,8 +636,8 @@
 		)
 		(symbol "SD_reader_gotronic_1_1"
 			(rectangle
-				(start -6.35 13.97)
-				(end 5.08 -6.35)
+				(start -6.35 10.16)
+				(end 5.08 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -647,7 +647,7 @@
 				)
 			)
 			(text "SD card Reader GT126\nGoTronic"
-				(at -1.016 17.018 0)
+				(at -1.016 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -655,7 +655,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -5.08 0)
+				(at 7.62 8.89 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -673,7 +673,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -2.54 0)
+				(at 7.62 6.35 180)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -691,7 +691,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 0 0)
+				(at 7.62 3.81 180)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -709,7 +709,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 2.54 0)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -727,7 +727,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 5.08 0)
+				(at -8.89 3.81 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -745,7 +745,7 @@
 				)
 			)
 			(pin input clock
-				(at -8.89 7.62 0)
+				(at -8.89 6.35 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -763,7 +763,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 10.16 0)
+				(at -8.89 8.89 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -773,24 +773,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -8.89 12.7 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
