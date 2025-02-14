@@ -5,7 +5,7 @@
 
 #include <SoftwareSerial.h>
 //No Library? No Problem! Click This! -> https://github.com/PaulStoffregen/SoftwareSerial
-SoftwareSerial mySerial(8,9); // RX, TX
+SoftwareSerial mySerial(9,8); // RX, TX
 
 char w;
 
